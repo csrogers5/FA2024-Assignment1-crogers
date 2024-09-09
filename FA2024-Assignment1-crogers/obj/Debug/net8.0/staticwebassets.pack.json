@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Caleb\\source\\repos\\FA2024-Assignment1-crogers\\FA2024-Assignment1-crogers\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FA2024-Assignment1-crogers.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FA2024-Assignment1-crogers.props",
+      "PackagePath": "build\\FA2024-Assignment1-crogers.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FA2024-Assignment1-crogers.props",
+      "PackagePath": "buildMultiTargeting\\FA2024-Assignment1-crogers.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FA2024-Assignment1-crogers.props",
+      "PackagePath": "buildTransitive\\FA2024-Assignment1-crogers.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

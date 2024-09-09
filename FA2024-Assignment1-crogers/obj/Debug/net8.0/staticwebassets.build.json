@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "pRtrM1BW14a0/kvncSZyGH8AxGAM20LyYikJVlVFXEw=",
+  "Source": "FA2024-Assignment1-crogers",
+  "BasePath": "_content/FA2024-Assignment1-crogers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FA2024-Assignment1-crogers\\wwwroot",
+      "Source": "FA2024-Assignment1-crogers",
+      "ContentRoot": "C:\\Users\\Caleb\\source\\repos\\FA2024-Assignment1-crogers\\FA2024-Assignment1-crogers\\wwwroot\\",
+      "BasePath": "_content/FA2024-Assignment1-crogers",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Caleb\\source\\repos\\FA2024-Assignment1-crogers\\FA2024-Assignment1-crogers\\wwwroot\\index.html",
+      "SourceId": "FA2024-Assignment1-crogers",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Caleb\\source\\repos\\FA2024-Assignment1-crogers\\FA2024-Assignment1-crogers\\wwwroot\\",
+      "BasePath": "_content/FA2024-Assignment1-crogers",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

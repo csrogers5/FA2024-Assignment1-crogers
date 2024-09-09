@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alien</title>
+    <style>
+        body 
+        {
+            background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ecf0f1;
+            text-align: center;
+        }
+        h1 
+        {
+            font-size: 400%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img#CoverArt
+        {
+            border-radius: 45%;
+            width: 500px;
+            height: 500px;
+        }
+        h5
+        {
+            font-size: 200%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a 
+        {
+            font-size: 150%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p 
+        {
+            font-size: 120%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul {
+            font-size: 110%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            list-style-type: none;
+            padding: 0;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+        li
+        {
+            margin: 1%;
+        }
+        img#Ship 
+        {
+            z-index: -1;
+            position: absolute;
+            width: 20%;
+            height: 20%;
+            top: 350px;
+            left: 10px;
+            animation: float 120s linear infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(100vw);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="Title">
+            A L I E N
+        </h1>
+    </div>
+    <div>
+        <img id="CoverArt" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p2571_p_v8_aw.jpg" />
+    </div>
+    <div>
+        <h5 id="Rating">
+            IMDB Rating: 8.5/10
+        </h5>
+    </div>
+    <div>
+        <a href="https://www.imdb.com/title/tt0078748/">IMDb Page</a>
+    </div>
+    <div>
+        <p id="Summary">
+            After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.
+        </p>
+    </div>
+    <div>
+        <ul id="Actors">
+            Notable Actors:
+            <li>Sigourney Weaver</li>
+            <li>Bolaji Badejo</li>
+            <li>John Hurt</li>
+            <li>Tom Skerritt</li>
+            <li>Ian Holm</li>
+        </ul>
+    </div>
+    <div>
+        <iframe id="Trailer" width="560" height="315" src="https://www.youtube.com/embed/jQ5lPt9edzQ?si=lAWOYgGwKbtM9dSi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+    <div>
+    <img id="Ship" src="https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/905899/uscss-nostromo_alien_silo.png"/>
+    </div>
+</body>
+</html>
